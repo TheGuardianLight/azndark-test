@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /*
+
+Sitemap : https://azndark-test.thelightguardian.fr/sitemap.xml

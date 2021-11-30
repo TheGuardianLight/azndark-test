@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.azndark-test.thelightguardian.fr/$1 [R,L]
+ErrorDocument 404 https://www.azndark-test.thelightguardian.fr/erreur404.php
+ErrorDocument 403 "<strong>Erreur 403: Acc&egrave;s Interdit !</strong><br/>Vous n'&ecirc;tes pas autoris&eacute; &agrave; acc&eacute;der &agrave; ce contenu !"
+Options -Indexes
