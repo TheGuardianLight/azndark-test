@@ -17,6 +17,13 @@ h1{
     color: white;
 }
 
+h2{
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
 /* Background */
 
 body{
@@ -34,12 +41,20 @@ body{
 p{
     font-size: 18px;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: justify;
 }
 
 /* Div */
 
 div{
     padding: 10px;
+}
+
+/* lien hypertexte */
+
+a{
+    text-decoration: none;
+    color: #ffbf00;
 }

@@ -1,4 +1,4 @@
-<!--Copyright (c) 2021  All Right Reserved, Noa Ledet (TheLightdragon)-->
+<!--Copyright (c) 2021  BY-NC-ND 4.0, Noa Ledet (TheLightdragon)-->
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -45,21 +45,16 @@
     <br/>
     <h1>Notre chaîne Twitch</h1>
     <br/>
-    <p>
-        Youtuber sur Minecraft, ici je fais des jeux beaucoup plus variés avec une grande préférence pour les Rogue Like tels Enter the Gungeon ou Dead Cells.<br/>Je tryhard beaucoup RocketLeague et suis les actualités au niveau des jeux !
-    </p>
-    <p>
-        Si vous souhaitez me suivre ou regarder mes anciens streams, vous le pouvez grâce au bouton ci-dessous.
-    </p>
-    <p style="padding-bottom: 15px">
-        Pour information, nos stream se déroulent en général de 21h jusqu'à environ 2h ou 3h du matin. Il nous arrive également de faire des live 24h.
-    </p>
+    <p class="p_desc">Youtuber sur Minecraft, ici je fais des jeux beaucoup plus variés avec une grande préférence pour les Rogue Like tels Enter the Gungeon ou Dead Cells.<br/>Je tryhard beaucoup RocketLeague et suis les actualités au niveau des jeux !</p>
+    <p class="p_desc">Si vous souhaitez me suivre ou regarder mes anciens streams, vous le pouvez grâce au bouton ci-dessous.</p>
+    <p style="padding-bottom: 15px" class="p_desc">Pour information, nos stream se déroulent en général de 21h jusqu'à environ 2h ou 3h du matin. Il nous arrive également de faire des live 24h.</p>
     <br/>
     <a href="https://www.twitch.tv/azndark" id="bouton_twitch">Ma cha&icirc;ne Twitch</a>
     <br/>
 
+    <!-- Début intégration Twitch -->
     <div class="div_player">
-        <script src= "https//player.twitch.tv/js/embed/v1.js"></script>
+        <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
         <table style="width: 100%">
             <tr>
                 <td>
@@ -85,6 +80,7 @@
         </script>
 
     </div>
+    <!-- Fin intégration Twitch -->
 
 </div>
 

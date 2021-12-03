@@ -8,7 +8,7 @@
             <li class="deroulant"><a href="" target="_self">Plus</a>
                 <ul class="sous">
                     <li><a href="" onclick="alert('Cette page est encore en construction !')">Contact</a></li>
-                    <li><a href="" onclick="alert('Cette page est encore en construction !')">Mention L&eacute;gales</a></li>
+                    <li><a href="/mention-legales.php">Mention L&eacute;gales</a></li>
                 </ul>
             </li>
         </ul>
