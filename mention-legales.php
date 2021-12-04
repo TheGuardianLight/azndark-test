@@ -114,7 +114,7 @@
                         <img alt="Copyright ND" src="styles/images/logo_copyright/nd.xlarge.webp" class="copyrightImg copyImg1"/>
                     </td>
                     <td>
-                        <img alt="Copyright BY" src="styles/images/logo_copyright/lnd.xlarge.webp" class="copyrightImg copyImg2">
+                        <img alt="Copyright BY" src="styles/images/logo_copyright/nd.xlarge.webp" class="copyrightImg copyImg2">
                         <p><strong>Pas de modifications (ND)</strong> — Dans le cas où vous effectuez un remix, que vous transformez, ou créez à partir du matériel composant l'Œuvre originale, vous n'êtes pas autorisé à distribuer ou mettre à disposition l'Œuvre modifiée.</p>
                     </td>
                 </tr>
