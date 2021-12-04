@@ -58,3 +58,13 @@ a{
     text-decoration: none;
     color: #ffbf00;
 }
+
+hr{
+    color: white;
+    height: 2px;
+    background-color: white;
+    border-width: 0;
+    border-radius: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
