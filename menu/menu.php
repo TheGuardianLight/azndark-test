@@ -7,7 +7,7 @@
             <li><a href="/notre-chaine-twitch.php" target="_self">Notre cha&icirc;ne Twitch</a></li>
             <li class="deroulant"><p class="plus">Plus</p>
                 <ul class="sous">
-                    <li><a href="" target="_self" onclick="alert('Cette page est encore en construction !')">Contact</a></li>
+                    <li><a href="/contact.php" target="_self">Contact</a></li>
                     <li><a href="/mention-legales.php" target="_self">Mention L&eacute;gales</a></li>
                 </ul>
             </li>

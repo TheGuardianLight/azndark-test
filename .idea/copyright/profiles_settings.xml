@@ -1,0 +1,16 @@
+<component name="CopyrightManager">
+  <settings default="azndark">
+    <module2copyright>
+      <element module="All" copyright="azndark" />
+    </module2copyright>
+    <LanguageOptions name="CSS">
+      <option name="fileTypeOverride" value="3" />
+      <option name="block" value="false" />
+    </LanguageOptions>
+    <LanguageOptions name="PHP">
+      <option name="fileTypeOverride" value="3" />
+      <option name="block" value="false" />
+      <option name="lenBefore" value="1" />
+    </LanguageOptions>
+  </settings>
+</component>

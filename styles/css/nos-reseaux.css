@@ -1,2 +1,13 @@
-/* Copyright (c) 2021  All Right Reserved, Noa Ledet (TheLightdragon). */
+/* Copyright (c) 2021, All Right Reserved, Noa Ledet alias TheLightDragon */
 
+table{
+    width: 100%;
+}
+
+table .tableau1{
+    height: 250px;
+}
+
+table .tableau2{
+    height: 125px;
+}

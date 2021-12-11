@@ -24,11 +24,11 @@
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="styles/css/nos-reseaux.css">
+    <link rel="stylesheet" href="styles/css/contact.css">
     <link rel="stylesheet" href="styles/css/menu.css">
     <link rel="stylesheet" href="styles/css/general.css">
 
-    <title>Nos r&eacute;seaux | Azn & Dark Production</title>
+    <title>Contact | Azn & Dark Production</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,55 +42,26 @@
 
 <div>
     <br/>
-    <h1>Nos r&eacute;seaux</h1>
+    <h1>Nous contacter</h1>
     <br/>
-    <p style="text-align: center">Vous pouvez nous souvre à travers tous nos réseaux tels que Instagram, Facebook, Twitter ou encore Youtube via les liens ci-dessous&nbsp;:</p>
+    <p class="center">Vous pouvez nous contacter via deux moyens. La première c'est par mail, le second via l'un de nos réseaux sociaux tels que Facebook, Instagram ou encore Discord.</p>
+    <p class="center">Ces deux boutons ci-dessous vous permettrons de nous contacter via l'un de ses deux moyens.</p>
     <br/>
-    <table class="tableau1">
-        <tr>
-            <td>
-                <a href="https://www.youtube.com/user/AznDarkproduction">
-                    <img src="styles/images/reseaux/youtube_azndark.png" alt="Chaîne youtube Azndark">
-                </a>
-            </td>
-            <td>
-                <a href="https://discord.com/invite/GdZf53C">
-                    <img src="styles/images/reseaux/discord_azndark.png" alt="Discord Azndark">
-                </a>
-            </td>
-            <td>
-                <a href="https://utip.io/azndarkproduction">
-                    <img src="styles/images/reseaux/utip_azndark.png" alt="Utip Azndark">
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://twitter.com/Aznching_offi">
-                    <img src="styles/images/reseaux/twitter_aznching.png" alt="Twitter Aznching">
-                </a>
-            </td>
-            <td>
-                <a href="https://www.instagram.com/azndarkproduction/?hl=fr">
-                    <img src="styles/images/reseaux/instagram_azndark.png" alt="Instagram Azndark">
-                </a>
-            </td>
-            <td>
-                <a href="https://twitter.com/azndark">
-                    <img src="styles/images/reseaux/twitter_dark.png" alt="Twitter Darkheaven">
-                </a>
-            </td>
-        </tr>
-    </table>
-    <table class="tableau2">
-        <tr>
-            <td>
-                <a href="https://www.facebook.com/azndarkProduction">
-                    <img src="styles/images/reseaux/facebook_azndark.png" alt="Facebook Azndark">
-                </a>
-            </td>
-        </tr>
-    </table>
+    <div id="myDiv">
+        <table>
+            <tr>
+                <td>
+                    <!--Bouton mail-->
+                    <a id="bouton" href="mailto:AznDarkProduction%20<contact@thelightguardian.fr>?subject=Contact AzkDarkProduction">Par mail (pro uniquement)</a>
+                    <!--Le mail indiqué dans l'URL est temporaire-->
+                </td>
+                <td>
+                    <!--Bouton réseaux sociaux-->
+                    <a id="bouton" href="nos-reseaux.php">Via nos r&eacute;seaux sociaux</a>
+                </td>
+            </tr>
+        </table>
+    </div>
 </div>
 
 </body>

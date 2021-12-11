@@ -1,4 +1,4 @@
-<!--Copyright (c) 2021  BY-NC-ND 4.0, Noa Ledet (TheLightdragon)-->
+<!--Copyright (c) 2021  BY-NC-ND 4.0, Noa Ledet alias TheLightdragon-->
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -55,7 +55,7 @@
     <!-- Début intégration Twitch -->
     <div class="div_player">
         <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
-        <table style="width: 100%">
+        <table>
             <tr>
                 <td>
                     <div id="player_azndark"></div>

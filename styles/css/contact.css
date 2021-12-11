@@ -1,6 +1,12 @@
 /* Copyright (c) 2021, All Right Reserved, Noa Ledet alias TheLightDragon */
 
-#bouton_twitch{
+/* Paragraphes */
+.center{
+    text-align: center;
+}
+
+/* Bouton */
+#bouton{
     font-size: 19px;
     text-align: center;
     padding: 10px 12px;
@@ -10,20 +16,20 @@
     transition: 0.4s;
 }
 
-#bouton_twitch:hover{
+#bouton:hover{
     color: black;
-    background-color: #9146ff;
+    background-color: #0898e8;
     transition: 0.4s;
 }
 
-.div_player{
-    padding-top: 45px;
-}
-
-.p_desc{
-    text-align: center;
-}
-
+/* tableau */
 table{
-    width: 100%;
+    width: 50%;
+    margin-left: 24%;
 }
+
+/*
+
+Recherche de solution pour fixer le pied de page vers le bas de l'écran.
+
+ */
