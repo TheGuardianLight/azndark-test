@@ -60,11 +60,11 @@
         </div>
         <hr/>
         <div>
-            <h2 class="titre-2">Contact du propri&eacute;taire du contenu&nbsp;:</h2>
+            <h2 class="titre-2">Contact du propri&eacute;taire du contenu<a href="#1" target="_self">&sup1;</a>&nbsp;:</h2>
             <p><span class="underline">Team&nbsp;:</span> AznDarkProduction</p>
             <p class="indication" id="1">&sup1;Est considéré comme contenu&nbsp;:</p>
             <ul style="margin-left: 1.5vw">
-                <li class="listColor"><p class="indication descContenu">Toutes images repr&eacute;sentant le logo de la AznDarkProduction.</p></li>
+                <li class="listColor"><p class="indication descContenu">Toutes images repr&eacute;sentant le logo de la AznDarkProduction ou décrivant son contenus.</p></li>
                 <li class="listColor"><p class="indication descContenu">Toutes vid&eacute;o originale propos&eacute; par la AznDarkProduction par le biais de ce site.</p> </li>
             </ul>
         </div>
@@ -120,6 +120,7 @@
                 </tr>
             </table>
             <p style="text-align: center;"><strong>Pas de restrictions complémentaires</strong> — Vous n'êtes pas autorisé à appliquer des conditions légales ou des mesures techniques qui restreindraient légalement autrui à utiliser l'Œuvre dans les conditions décrites par la licence.</p>
+            <p><span id="2">&sup2;</span> Seul le contenu décrit <a href="#1" target="_self">plus haut</a> est sous licenses "tout droits réservés" !</p>
         </div>
     </div>
 

@@ -3,9 +3,9 @@
     <nav>
         <ul>
             <li><a href="/index.php" target="_self">Accueil</a></li>
-            <li><a href="" target="_self" onclick="alert('Cette page est encore en construction !')">Nos r&eacute;seaux sociaux</a></li>
+            <li><a href="/nos-reseaux.php" target="_self">Nos r&eacute;seaux sociaux</a></li>
             <li><a href="/notre-chaine-twitch.php" target="_self">Notre cha&icirc;ne Twitch</a></li>
-            <li class="deroulant"><a href="" target="_self">Plus</a>
+            <li class="deroulant"><p class="plus">Plus</p>
                 <ul class="sous">
                     <li><a href="" target="_self" onclick="alert('Cette page est encore en construction !')">Contact</a></li>
                     <li><a href="/mention-legales.php" target="_self">Mention L&eacute;gales</a></li>
