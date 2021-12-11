@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02e99ecf-039f-43e6-a023-b12ec82b0668" name="Changes" comment="def">
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/azndark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/css/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mention-legales.php" beforeDir="false" afterPath="$PROJECT_DIR$/mention-legales.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nos-reseaux.php" beforeDir="false" afterPath="$PROJECT_DIR$/nos-reseaux.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notre-chaine-twitch.php" beforeDir="false" afterPath="$PROJECT_DIR$/notre-chaine-twitch.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/chaine_twitch.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/chaine_twitch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/mentions_legales.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/mentions_legales.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/nos-reseaux.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/nos-reseaux.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,9 +82,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639242865135</updated>
-      <workItem from="1639242868600" duration="3023000" />
+      <workItem from="1639242868600" duration="3557000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="def">
+      <created>1639246079065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639246079065</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

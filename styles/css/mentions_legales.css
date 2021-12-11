@@ -1,8 +1,16 @@
 /* Copyright (c) 2021, All Right Reserved, Noa Ledet alias TheLightDragon */
 
+/* Paragraphes */
+
 .underline{
     text-decoration: underline;
 }
+
+p.indication{
+    font-size: 13px;
+}
+
+/* Titres */
 
 .titre-2{
     padding-bottom: 15px;
@@ -11,6 +19,8 @@
 .titre-3{
     text-align: center;
 }
+
+/* Listes */
 
 .descContenu{
     padding: 0;
@@ -26,9 +36,10 @@
     color: white;
 }
 
-p.indication{
-    font-size: 13px;
-}
+/* Images
+
+La classe copyImg1 et copyImg2 sont présent pour la version mobile du site.
+ */
 
 .copyrightImg{
     width: 261px;

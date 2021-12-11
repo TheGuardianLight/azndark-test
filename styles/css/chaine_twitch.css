@@ -1,5 +1,7 @@
 /* Copyright (c) 2021, All Right Reserved, Noa Ledet alias TheLightDragon */
 
+/* Bouton */
+
 #bouton_twitch{
     font-size: 19px;
     text-align: center;
@@ -16,13 +18,19 @@
     transition: 0.4s;
 }
 
+/* <div> */
+
 .div_player{
     padding-top: 45px;
 }
 
+/* Paragraphe */
+
 .p_desc{
     text-align: center;
 }
+
+/* Tableau (pour l'intégration de l'API de Twitch) */
 
 table{
     width: 100%;
