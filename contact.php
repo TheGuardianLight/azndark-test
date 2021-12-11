@@ -44,7 +44,7 @@
     <br/>
     <h1>Nous contacter</h1>
     <br/>
-    <p class="center">Vous pouvez nous contacter via deux moyens. La première c'est par mail, le second via l'un de nos réseaux sociaux tels que Facebook, Instagram ou encore Discord.</p>
+    <p class="center">Vous pouvez nous contacter via deux moyens. Le premier moyen de nous contacter, c'est par mail et le second, via l'un de nos réseaux sociaux tels que Facebook, Instagram ou encore Discord.</p>
     <p class="center">Ces deux boutons ci-dessous vous permettrons de nous contacter via l'un de ses deux moyens.</p>
     <br/>
     <div id="myDiv">

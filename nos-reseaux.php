@@ -44,7 +44,7 @@
     <br/>
     <h1>Nos r&eacute;seaux</h1>
     <br/>
-    <p style="text-align: center">Vous pouvez nous souvre à travers tous nos réseaux tels que Instagram, Facebook, Twitter ou encore Youtube via les liens ci-dessous&nbsp;:</p>
+    <p class="center">Vous pouvez nous suivre à travers tous nos réseaux tels qu'Instagram, Facebook, Twitter ou encore YouTube via les liens ci-dessous&nbsp;:</p>
     <br/>
     <table class="tableau1">
         <tr>

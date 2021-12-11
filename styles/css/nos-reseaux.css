@@ -13,3 +13,9 @@ table .tableau1{
 table .tableau2{
     height: 125px;
 }
+
+/* Paragraphe */
+
+.center{
+    text-align: center;
+}
