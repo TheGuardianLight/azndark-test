@@ -55,12 +55,13 @@
     <!-- Début intégration Twitch -->
     <div class="div_player">
         <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+        <!-- Version Ordinateur -->
         <table>
             <tr>
                 <td>
                     <div id="player_azndark"></div>
                 </td>
-                <td>
+                <td id="twitch1">
                     <iframe src="https://www.twitch.tv/embed/azndark/chat?parent=azndark-test.thelightguardian.fr"
                             height="576px"
                             width="100%">
@@ -68,17 +69,49 @@
                 </td>
             </tr>
         </table>
-        <script type="text/javascript">
-            var options = {
-                width: 1024,
-                height: 576,
-                channel: "azndark",
-                parent: ["embed.thelightguardian.fr", "azndark-test.thelightguardian.fr"]
-            }
-            var player = new Twitch.Player("player_azndark", options);
-            player.setVolume(0.5);
-        </script>
+        <!-- Fin Version Ordinateur -->
+        <!-- Version Mobile -->
+        <div id="twitch2">
+            <iframe src="https://www.twitch.tv/embed/azndark/chat?parent=azndark-test.thelightguardian.fr"
+                    height="324px"
+                    width="100%">
+            </iframe>
+        </div>
+        <!-- Fin Version Mobile -->
 
+        <script type="text/javascript">
+            if(/iPhone|iPod|Android|opera mini|blackberry|palm os|palm|hiptop|avantgo|plucker|xiino|blazer|elaine|iris|3g_t|windows ce|opera mobi|windows ce; smartphone;|windows ce;iemobile/i.test(navigator.userAgent)) {
+                if (screen.width<=380){
+                    var options = {
+                        width: 280 ,
+                        height: 157.5 ,
+                        channel: "azndark",
+                        parent: ["embed.thelightguardian.fr", "azndark-test.thelightguardian.fr"]
+                    }
+                    var player = new Twitch.Player("player_azndark", options);
+                    player.setVolume(0.5);
+                } else {
+                    var options = {
+                        width: 320 ,
+                        height: 180 ,
+                        channel: "azndark",
+                        parent: ["embed.thelightguardian.fr", "azndark-test.thelightguardian.fr"]
+                    }
+                    var player = new Twitch.Player("player_azndark", options);
+                    player.setVolume(0.5);
+                }
+
+            } else {
+                var options = {
+                    width: 1024,
+                    height: 576,
+                    channel: "azndark",
+                    parent: ["embed.thelightguardian.fr", "azndark-test.thelightguardian.fr"]
+                }
+                var player = new Twitch.Player("player_azndark", options);
+                player.setVolume(0.5);
+            }
+        </script>
     </div>
     <!-- Fin intégration Twitch -->
 

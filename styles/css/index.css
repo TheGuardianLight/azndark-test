@@ -5,3 +5,22 @@
 .logo_principal{
     width: 720px;
 }
+
+.logo_principalMobile{
+    display: none;
+}
+
+@media only screen and (max-device-width: 1280px){
+    .logo_principal{
+        display: none;
+    }
+
+    #titre{
+        font-size: 30px;
+    }
+
+    .logo_principalMobile{
+        display: inline;
+        width: 100%;
+    }
+}

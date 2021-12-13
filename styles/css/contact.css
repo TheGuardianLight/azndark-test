@@ -1,5 +1,11 @@
 /* Copyright (c) 2021, All Right Reserved, Noa Ledet alias TheLightDragon */
 
+/* <div> */
+
+#contact2{
+    display: none;
+}
+
 /* Paragraphes */
 .center{
     text-align: center;
@@ -33,3 +39,19 @@ table{
 Recherche de solution pour fixer le pied de page vers le bas de l'écran.
 
  */
+
+@media only screen and (max-device-width: 1280px){
+
+    #contact1{
+        display: none;
+    }
+
+    #contact2{
+        display: block;
+    }
+
+    #contact2 > p{
+        text-align: center;
+    }
+
+}

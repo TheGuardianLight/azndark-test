@@ -42,9 +42,10 @@
 
 <div>
     <br/>
-    <h1>Bienvenue sur le site officiel<br/>de l'AznDarkProduction&nbsp;!</h1>
+    <h1 id="titre">Bienvenue sur le site officiel<br/>de l'AznDarkProduction&nbsp;!</h1>
     <br/>
     <img class="logo_principal" src="styles/images/Official_Logo_AZNDARK_pres.png" alt="Logo AznDarkProduction">
+    <img class="logo_principalMobile" src="styles/images/Official_Logo_AZNDARK_presCarre.jpg" alt="Logo AznDarkProduction">
     <br/>
     <p>[Insérer description]</p>
     <br/>

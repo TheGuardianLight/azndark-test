@@ -58,3 +58,19 @@ La classe copyImg1 et copyImg2 sont présent pour la version mobile du site.
     width: 230px;
     padding-bottom: 20px;
 }
+
+@media only screen and (max-device-width: 1280px){
+
+    .copyImg1{
+        display: none;
+    }
+
+    .copyImg2{
+        display: inline;
+    }
+
+    .titre-2{
+        font-size: 25px;
+    }
+
+}

@@ -1,5 +1,11 @@
 /* Copyright (c) 2021, All Right Reserved, Noa Ledet alias TheLightDragon */
 
+/* <div> */
+
+#twitch2{
+    display: none;
+}
+
 /* Bouton */
 
 #bouton_twitch{
@@ -34,4 +40,14 @@
 
 table{
     width: 100%;
+}
+
+@media only screen and (max-device-width: 1280px){
+    #twitch1{
+        display: none;
+    }
+
+    #twitch2{
+        display: block;
+    }
 }

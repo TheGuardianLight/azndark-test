@@ -68,3 +68,9 @@ hr{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+@media only screen and (max-device-width: 1280px){
+    p{
+        font-size: 16px;
+    }
+}

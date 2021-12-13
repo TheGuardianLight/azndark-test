@@ -48,7 +48,7 @@
     <p class="center">Ces deux boutons ci-dessous vous permettrons de nous contacter via l'un de ses deux moyens.</p>
     <br/>
     <div id="myDiv">
-        <table>
+        <table id="contact1">
             <tr>
                 <td>
                     <!--Bouton mail-->
@@ -61,6 +61,10 @@
                 </td>
             </tr>
         </table>
+        <div id="contact2">
+            <p><a id="bouton" href="mailto:AznDarkProduction%20<contact@thelightguardian.fr>?subject=Contact AzkDarkProduction">Par mail (pro uniquement)</a></p>
+            <p><a id="bouton" href="nos-reseaux.php" target="_self">Via nos r&eacute;seaux sociaux</a></p>
+        </div>
     </div>
 </div>
 

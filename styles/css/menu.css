@@ -103,3 +103,11 @@ footer{
     padding-top: 15px;
     padding-bottom: 10px;
 }
+
+@media only screen and (max-device-width: 1280px){
+
+    nav ul li{
+        width: 100%;
+    }
+
+}

@@ -46,51 +46,76 @@
     <br/>
     <p class="center">Vous pouvez nous suivre à travers tous nos réseaux tels qu'Instagram, Facebook, Twitter ou encore YouTube via les liens ci-dessous&nbsp;:</p>
     <br/>
-    <table class="tableau1">
-        <tr>
-            <td>
-                <a href="https://www.youtube.com/user/AznDarkproduction">
-                    <img src="styles/images/reseaux/youtube_azndark.png" alt="Chaîne youtube Azndark">
-                </a>
-            </td>
-            <td>
-                <a href="https://discord.com/invite/GdZf53C">
-                    <img src="styles/images/reseaux/discord_azndark.png" alt="Discord Azndark">
-                </a>
-            </td>
-            <td>
-                <a href="https://utip.io/azndarkproduction">
-                    <img src="styles/images/reseaux/utip_azndark.png" alt="Utip Azndark">
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://twitter.com/Aznching_offi">
-                    <img src="styles/images/reseaux/twitter_aznching.png" alt="Twitter Aznching">
-                </a>
-            </td>
-            <td>
-                <a href="https://www.instagram.com/azndarkproduction/?hl=fr">
-                    <img src="styles/images/reseaux/instagram_azndark.png" alt="Instagram Azndark">
-                </a>
-            </td>
-            <td>
-                <a href="https://twitter.com/azndark">
-                    <img src="styles/images/reseaux/twitter_dark.png" alt="Twitter Darkheaven">
-                </a>
-            </td>
-        </tr>
-    </table>
-    <table class="tableau2">
-        <tr>
-            <td>
-                <a href="https://www.facebook.com/azndarkProduction">
-                    <img src="styles/images/reseaux/facebook_azndark.png" alt="Facebook Azndark">
-                </a>
-            </td>
-        </tr>
-    </table>
+    <div id="reseaux1">
+        <table class="tableau1">
+            <tr>
+                <td>
+                    <a href="https://www.youtube.com/user/AznDarkproduction">
+                        <img src="styles/images/reseaux/youtube_azndark.png" alt="Chaîne youtube Azndark">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://discord.com/invite/GdZf53C">
+                        <img src="styles/images/reseaux/discord_azndark.png" alt="Discord Azndark">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://utip.io/azndarkproduction">
+                        <img src="styles/images/reseaux/utip_azndark.png" alt="Utip Azndark">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://twitter.com/Aznching_offi">
+                        <img src="styles/images/reseaux/twitter_aznching.png" alt="Twitter Aznching">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.instagram.com/azndarkproduction/?hl=fr">
+                        <img src="styles/images/reseaux/instagram_azndark.png" alt="Instagram Azndark">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://twitter.com/azndark">
+                        <img src="styles/images/reseaux/twitter_dark.png" alt="Twitter Darkheaven">
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <table class="tableau2">
+            <tr>
+                <td>
+                    <a href="https://www.facebook.com/azndarkProduction">
+                        <img src="styles/images/reseaux/facebook_azndark.png" alt="Facebook Azndark">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="reseaux2">
+        <a href="https://www.youtube.com/user/AznDarkproduction">
+            <img src="styles/images/reseaux/youtube_azndark.png" alt="Chaîne youtube Azndark">
+        </a>
+        <a href="https://discord.com/invite/GdZf53C">
+            <img src="styles/images/reseaux/discord_azndark.png" alt="Discord Azndark">
+        </a>
+        <a href="https://utip.io/azndarkproduction">
+            <img src="styles/images/reseaux/utip_azndark.png" alt="Utip Azndark">
+        </a>
+        <a href="https://twitter.com/Aznching_offi">
+            <img src="styles/images/reseaux/twitter_aznching.png" alt="Twitter Aznching">
+        </a>
+        <a href="https://www.instagram.com/azndarkproduction/?hl=fr">
+            <img src="styles/images/reseaux/instagram_azndark.png" alt="Instagram Azndark">
+        </a>
+        <a href="https://twitter.com/azndark">
+            <img src="styles/images/reseaux/twitter_dark.png" alt="Twitter Darkheaven">
+        </a>
+        <a href="https://www.facebook.com/azndarkProduction">
+            <img src="styles/images/reseaux/facebook_azndark.png" alt="Facebook Azndark">
+        </a>
+    </div>
 </div>
 
 </body>
