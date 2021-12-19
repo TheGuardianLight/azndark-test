@@ -47,7 +47,7 @@
     <img class="logo_principal" src="styles/images/Official_Logo_AZNDARK_pres.png" alt="Logo AznDarkProduction">
     <img class="logo_principalMobile" src="styles/images/Official_Logo_AZNDARK_presCarre.jpg" alt="Logo AznDarkProduction">
     <br/>
-    <p>[Insérer description]</p>
+    <p class="p_desc">Youtuber sur Minecraft, ici je fais des jeux beaucoup plus variés avec une grande préférence pour les Rogue Like tels Enter the Gungeon ou Dead Cells.<br/>Je tryhard beaucoup RocketLeague et suis les actualités au niveau des jeux !</p>
     <br/>
 </div>
 

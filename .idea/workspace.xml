@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e99ecf-039f-43e6-a023-b12ec82b0668" name="Changes" comment="Correction orthographique.&#10;&#10;- Correction ortograpgique des textes et des paragraphes.">
-      <change afterPath="$PROJECT_DIR$/styles/images/Official_Logo_AZNDARK_presCarre.jpg" afterDir="false" />
+    <list default="true" id="02e99ecf-039f-43e6-a023-b12ec82b0668" name="Changes" comment="Version Mobile&#10;&#10;- Le site est désormais accessible entièrement aux mobiles.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nos-reseaux.php" beforeDir="false" afterPath="$PROJECT_DIR$/nos-reseaux.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notre-chaine-twitch.php" beforeDir="false" afterPath="$PROJECT_DIR$/notre-chaine-twitch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/chaine_twitch.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/chaine_twitch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/mentions_legales.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/mentions_legales.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/nos-reseaux.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/nos-reseaux.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1639242865135</updated>
       <workItem from="1639242868600" duration="5910000" />
-      <workItem from="1639412955280" duration="5391000" />
+      <workItem from="1639412955280" duration="5699000" />
+      <workItem from="1639937878697" duration="262000" />
     </task>
     <task id="LOCAL-00003" summary="def">
       <created>1639246079065</created>
@@ -116,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639247979059</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Version Mobile&#10;&#10;- Le site est désormais accessible entièrement aux mobiles.">
+      <created>1639418711059</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639418711059</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +138,7 @@
     <MESSAGE value="def" />
     <MESSAGE value="Catégorisation des éléments des fichiers CSS.&#10;&#10;- Amélioration de la lisibilité et de la compréhension du contenu de ces fichiers." />
     <MESSAGE value="Correction orthographique.&#10;&#10;- Correction ortograpgique des textes et des paragraphes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction orthographique.&#10;&#10;- Correction ortograpgique des textes et des paragraphes." />
+    <MESSAGE value="Version Mobile&#10;&#10;- Le site est désormais accessible entièrement aux mobiles." />
+    <option name="LAST_COMMIT_MESSAGE" value="Version Mobile&#10;&#10;- Le site est désormais accessible entièrement aux mobiles." />
   </component>
 </project>
