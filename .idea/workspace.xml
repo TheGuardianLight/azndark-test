@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e99ecf-039f-43e6-a023-b12ec82b0668" name="Changes" comment="Version Mobile&#10;&#10;- Le site est désormais accessible entièrement aux mobiles.">
+    <list default="true" id="02e99ecf-039f-43e6-a023-b12ec82b0668" name="Changes" comment="Amélioration du site&#10;&#10;- Modification adresse email du bouton de contact (mail pro)&#10;- Déplacement de la description de la chaîne twitch sur la page d'accueil.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notre-chaine-twitch.php" beforeDir="false" afterPath="$PROJECT_DIR$/notre-chaine-twitch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/pied_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/pied_page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,8 @@
       <updated>1639242865135</updated>
       <workItem from="1639242868600" duration="5910000" />
       <workItem from="1639412955280" duration="5699000" />
-      <workItem from="1639937878697" duration="262000" />
+      <workItem from="1639937878697" duration="1624000" />
+      <workItem from="1641004814287" duration="49000" />
     </task>
     <task id="LOCAL-00003" summary="def">
       <created>1639246079065</created>
@@ -116,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639418711059</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Amélioration du site&#10;&#10;- Modification adresse email du bouton de contact (mail pro)&#10;- Déplacement de la description de la chaîne twitch sur la page d'accueil.">
+      <created>1639938208692</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639938208692</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +144,7 @@
     <MESSAGE value="Catégorisation des éléments des fichiers CSS.&#10;&#10;- Amélioration de la lisibilité et de la compréhension du contenu de ces fichiers." />
     <MESSAGE value="Correction orthographique.&#10;&#10;- Correction ortograpgique des textes et des paragraphes." />
     <MESSAGE value="Version Mobile&#10;&#10;- Le site est désormais accessible entièrement aux mobiles." />
-    <option name="LAST_COMMIT_MESSAGE" value="Version Mobile&#10;&#10;- Le site est désormais accessible entièrement aux mobiles." />
+    <MESSAGE value="Amélioration du site&#10;&#10;- Modification adresse email du bouton de contact (mail pro)&#10;- Déplacement de la description de la chaîne twitch sur la page d'accueil." />
+    <option name="LAST_COMMIT_MESSAGE" value="Amélioration du site&#10;&#10;- Modification adresse email du bouton de contact (mail pro)&#10;- Déplacement de la description de la chaîne twitch sur la page d'accueil." />
   </component>
 </project>
