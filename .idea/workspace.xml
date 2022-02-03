@@ -5,28 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02e99ecf-039f-43e6-a023-b12ec82b0668" name="Changes" comment="Amélioration du site.&#10;&#10;- Modification du pied de page pour inclure l'année 2022 au copyright.">
-      <change afterPath="$PROJECT_DIR$/series/moduction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/azndark-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/azndark-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/bdd/bdd_online.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/moduction/saisons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/css/series/moduction.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mention-legales.php" beforeDir="false" afterPath="$PROJECT_DIR$/mention-legales.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/pied_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/pied_page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nos-reseaux.php" beforeDir="false" afterPath="$PROJECT_DIR$/nos-reseaux.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notre-chaine-twitch.php" beforeDir="false" afterPath="$PROJECT_DIR$/notre-chaine-twitch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/chaine_twitch.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/chaine_twitch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/series/moduction.php" beforeDir="false" afterPath="$PROJECT_DIR$/series/moduction.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/mentions_legales.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/mentions_legales.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/nos-reseaux.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/nos-reseaux.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../xampp/php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../osmalia" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -81,6 +67,7 @@
       <recent name="C:\Users\TheLi\Documents\Site internet\azndark-test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TheLi\Documents\Site internet\azndark-test\styles\css\series" />
       <recent name="C:\Users\TheLi\Documents\Site internet\azndark-test\series" />
     </key>
   </component>
@@ -111,7 +98,8 @@
       <workItem from="1639937878697" duration="1624000" />
       <workItem from="1641004814287" duration="151000" />
       <workItem from="1642177248067" duration="946000" />
-      <workItem from="1643804574282" duration="1144000" />
+      <workItem from="1643804574282" duration="1457000" />
+      <workItem from="1643887995596" duration="4685000" />
     </task>
     <task id="LOCAL-00003" summary="def">
       <created>1639246079065</created>
@@ -155,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641004941603</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Amélioration du site.&#10;&#10;- Modification du pied de page pour inclure l'année 2022 au copyright.">
+      <created>1643805895196</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643805895196</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

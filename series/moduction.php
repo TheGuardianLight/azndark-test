@@ -2,7 +2,9 @@
 
 <!DOCTYPE html>
 <html lang="fr">
+<?php require('../admin/bdd/bdd_online.php')
 
+?>
 <head>
     <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
@@ -22,7 +24,7 @@
     <meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="../styles/css/index.css">
+    <link rel="stylesheet" href="../styles/css/series/moduction.css">
     <link rel="stylesheet" href="../styles/css/menu.css">
     <link rel="stylesheet" href="../styles/css/general.css">
 
@@ -39,10 +41,57 @@
 
 <body>
 
+<div>
     <br/>
     <h1 id="titre">S&eacute;rie moduction</h1>
     <br/>
+    <div>
+        <p class="p_desc">Ici vous pouvez retrouver toutes les saisons de Moduction !<br/>Les épisodes et saisons arriveront au fur et a mesure, le temps de tout lister et de récupérer les informations nécessaires.</p>
+        <div>
+
+            <?php
+            $req = $bdd->query("SELECT * FROM liste_moduction WHERE visible = 1");
+            $donnees = $req->fetch();
+
+            if(isset($donnees['saison'])==true and $donnees['visible']==1){
+                ?>
+                <table class="tablePresentGene">
+                    <tr>
+                        <td style="width: 33%;">
+                            <h5>Saison&nbsp;:</h5>
+                        </td>
+                        <td style="width: 33%;">
+                            <h5>Nombre d'&eacute;pisode&nbsp;:</h5>
+                        </td>
+                        <td style="width: 33%;">
+                            <h5>Liens&nbsp;:</h5>
+                        </td>
+                    </tr>
+                    <?php
+                    $req = $bdd->query("SELECT * FROM liste_moduction WHERE visible = 1");
+                    while($donnees = $req->fetch()){
+                        ?>
+                        <tr>
+                            <td>
+                                <p class="center">Moduction Saison <?php echo $donnees['saison']?></p>
+                            </td>
+                            <td>
+                                <p class="center"><?php if(isset($donnees['nbe_episode'])){ echo $donnees['nbe_episode']; } else { echo "N/A"; }?></p>
+                            </td>
+                            <td>
+                                <p class="center"><a target="_blank" href="https://www.azndark-test.thelightguardian.fr/series/moduction/saisons?id=<?php echo $donnees['id'] ?>">Voir la saison</a></p>
+                            </td>
+                        </tr>
+                    <?php } ?>
+                </table>
+            <?php } else {
+
+            } ?>
+        </div>
+    </div>
+</div>
 
 </body>
 <?php require('../menu/pied_page.php')?>
+
 </html>
