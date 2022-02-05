@@ -2,7 +2,8 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-<?php require('../../admin/bdd/bdd_online.php') ?>
+
+
 <head>
     <base target="_blank">
 
@@ -28,7 +29,7 @@
     <link rel="stylesheet" href="../../styles/css/menu.css">
     <link rel="stylesheet" href="../../styles/css/general.css">
 
-    <title>Moduction Saison <?php echo $_GET['saison'] ?> | Azn & Dark Production</title>
+    <title>Moduction s<?php echo $_GET['saison'] ?> e<?php echo $_GET['episode']?> | Azn & Dark Production</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,53 +43,8 @@
 
 <div>
     <br/>
-    <h1 id="titre">Moduction Saison <?php echo $_GET['saison'] ?></h1>
+    <h1 id="titre">Moduction Saison <?php echo $_GET['saison'] ?> Episode <?php echo $_GET['episode'] ?></h1>
     <br/>
-
-    <?php
-    $saison = "moduction_s".$_GET['saison'];
-
-            $req = $bdd->query("SELECT * FROM ". $saison ." WHERE visible = 1");
-            $donnees = $req->fetch();
-
-            if(isset($donnees['titre'])==true and $donnees['visible']==1){
-                ?>
-    <table class="tablePresentGene">
-        <tr>
-            <td style="width: 25%;">
-                <h5>Episode</h5>
-            </td>
-            <td style="width: 25%;">
-                <h5>Titre</h5>
-            </td>
-            <td style="width: 25%;">
-                <h5>Date de publication&nbsp;:</h5>
-            </td>
-            <td style="width: 25%;">
-                <h5>Lien&nbsp;:</h5>
-            </td>
-        </tr>
-        <?php
-        $req = $bdd->query("SELECT * FROM $saison WHERE visible = 1");
-        while($donnees = $req->fetch()){
-            ?>
-            <tr>
-                <td>
-                    <p class="center">Episode <?php echo $donnees['episode']?></p>
-                </td>
-                <td>
-                    <p class="center"><?php echo $donnees['titre'] ?></p>
-                </td>
-                <td>
-                    <p class="center"><?php if(isset($donnees['date_publication'])){ echo $donnees['date_publication']; } else { echo "Inconnu"; }?></p>
-                </td>
-                <td>
-                    <p class="center"><a target="_blank" href="https://www.azndark-test.thelightguardian.fr/series/moduction/saisons?saison=<?php echo $_GET['saison'] ?>&episode=<?php echo $donnees['episode'] ?>">Voir l'&eacute;pisode</a></p>
-                </td>
-            </tr>
-        <?php } ?>
-    </table>
-    <?php } ?>
 
 </div>
 

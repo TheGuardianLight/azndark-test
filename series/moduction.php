@@ -46,7 +46,7 @@
     <h1 id="titre">S&eacute;rie moduction</h1>
     <br/>
     <div>
-        <p class="p_desc">Ici vous pouvez retrouver toutes les saisons de Moduction !<br/>Les épisodes et saisons arriveront au fur et a mesure, le temps de tout lister et de récupérer les informations nécessaires.</p>
+        <p class="p_desc">Ici vous pouvez retrouver toutes les saisons de Moduction !<br/>Les épisodes et saisons arriveront au fur et a mesure, le temps de répertorier tout les épisodes.</p>
         <div>
 
             <?php
@@ -67,6 +67,7 @@
                             <h5>Liens&nbsp;:</h5>
                         </td>
                     </tr>
+                    <br/>
                     <?php
                     $req = $bdd->query("SELECT * FROM liste_moduction WHERE visible = 1");
                     while($donnees = $req->fetch()){
@@ -79,7 +80,7 @@
                                 <p class="center"><?php if(isset($donnees['nbe_episode'])){ echo $donnees['nbe_episode']; } else { echo "N/A"; }?></p>
                             </td>
                             <td>
-                                <p class="center"><a target="_blank" href="https://www.azndark-test.thelightguardian.fr/series/moduction/saisons?id=<?php echo $donnees['id'] ?>">Voir la saison</a></p>
+                                <p class="center"><a target="_blank" href="https://www.azndark-test.thelightguardian.fr/series/moduction/saisons?saison=<?php echo $donnees['id'] ?>">Voir la saison</a></p>
                             </td>
                         </tr>
                     <?php } ?>

@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e99ecf-039f-43e6-a023-b12ec82b0668" name="Changes" comment="Amélioration du site.&#10;&#10;- Modification du pied de page pour inclure l'année 2022 au copyright.">
-      <change afterPath="$PROJECT_DIR$/admin/bdd/bdd_online.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/series/moduction/saisons.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/css/series/moduction.css" afterDir="false" />
+    <list default="true" id="02e99ecf-039f-43e6-a023-b12ec82b0668" name="Changes" comment="Ajout séries&#10;&#10;- Ajout de la série Moduction sur le site. [En cours de travail]&#10;- Ajout de l'onglet &quot;séries&quot; sur le menu du site.">
+      <change afterPath="$PROJECT_DIR$/series/moduction/episodes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/css/series/moduction/saisons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/browserconfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/series/moduction.php" beforeDir="false" afterPath="$PROJECT_DIR$/series/moduction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/series/moduction/saisons.php" beforeDir="false" afterPath="$PROJECT_DIR$/series/moduction/saisons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/chaine_twitch.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/chaine_twitch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/mentions_legales.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/mentions_legales.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/nos-reseaux.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/nos-reseaux.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +44,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP XAMPP" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="229HNbuMH0J0cm2fs850r2sVMem" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,9 +58,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../osmalia" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -99,7 +108,8 @@
       <workItem from="1641004814287" duration="151000" />
       <workItem from="1642177248067" duration="946000" />
       <workItem from="1643804574282" duration="1457000" />
-      <workItem from="1643887995596" duration="4685000" />
+      <workItem from="1643887995596" duration="4827000" />
+      <workItem from="1644083725506" duration="3954000" />
     </task>
     <task id="LOCAL-00003" summary="def">
       <created>1639246079065</created>
@@ -150,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643805895196</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ajout séries&#10;&#10;- Ajout de la série Moduction sur le site. [En cours de travail]&#10;- Ajout de l'onglet &quot;séries&quot; sur le menu du site.">
+      <created>1643892869597</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643892869597</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +192,7 @@
     <MESSAGE value="Version Mobile&#10;&#10;- Le site est désormais accessible entièrement aux mobiles." />
     <MESSAGE value="Amélioration du site&#10;&#10;- Modification adresse email du bouton de contact (mail pro)&#10;- Déplacement de la description de la chaîne twitch sur la page d'accueil." />
     <MESSAGE value="Amélioration du site.&#10;&#10;- Modification du pied de page pour inclure l'année 2022 au copyright." />
-    <option name="LAST_COMMIT_MESSAGE" value="Amélioration du site.&#10;&#10;- Modification du pied de page pour inclure l'année 2022 au copyright." />
+    <MESSAGE value="Ajout séries&#10;&#10;- Ajout de la série Moduction sur le site. [En cours de travail]&#10;- Ajout de l'onglet &quot;séries&quot; sur le menu du site." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout séries&#10;&#10;- Ajout de la série Moduction sur le site. [En cours de travail]&#10;- Ajout de l'onglet &quot;séries&quot; sur le menu du site." />
   </component>
 </project>
