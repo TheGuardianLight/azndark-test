@@ -1,0 +1,62 @@
+/* Copyright (c) 2022, All Right Reserved, Noa Ledet alias TheLightDragon */
+
+.titre_ep{
+    font-size: 30px;
+    text-align: center;
+}
+
+.desc_vid{
+    text-align: center;
+}
+
+#div_info{
+    padding-bottom: 50px;
+}
+
+#bouton{
+    font-size: 19px;
+    text-align: center;
+    padding: 10px 12px;
+    background-color: #313131;
+    color: #ffbf00;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+#bouton:hover{
+    color: black;
+    background-color: #0898e8;
+    transition: 0.4s;
+}
+
+#bouton_saison{
+    font-size: 19px;
+    text-align: center;
+    padding: 10px 12px;
+    background-color: #313131;
+    color: #ffbf00;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+#bouton_saison:hover{
+    color: black;
+    background-color: #ffbf00;
+    transition: 0.4s;
+}
+
+#bouton_red{
+    font-size: 19px;
+    text-align: center;
+    padding: 10px 12px;
+    background-color: #313131;
+    color: #ffbf00;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+#bouton_red:hover{
+    color: black;
+    background-color: red;
+    transition: 0.4s;
+}

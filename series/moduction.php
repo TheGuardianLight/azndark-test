@@ -80,7 +80,7 @@
                                 <p class="center"><?php if(isset($donnees['nbe_episode'])){ echo $donnees['nbe_episode']; } else { echo "N/A"; }?></p>
                             </td>
                             <td>
-                                <p class="center"><a target="_blank" href="https://www.azndark-test.thelightguardian.fr/series/moduction/saisons?saison=<?php echo $donnees['id'] ?>">Voir la saison</a></p>
+                                <p class="center"><a target="_self" href="https://www.azndark-test.thelightguardian.fr/series/moduction/saisons?saison=<?php echo $donnees['id'] ?>">Voir la saison</a></p>
                             </td>
                         </tr>
                     <?php } ?>

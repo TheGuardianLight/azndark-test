@@ -48,7 +48,7 @@
     <?php
     $saison = "moduction_s".$_GET['saison'];
 
-            $req = $bdd->query("SELECT * FROM ". $saison ." WHERE visible = 1");
+            $req = $bdd->query("SELECT * FROM  $saison  WHERE visible = 1");
             $donnees = $req->fetch();
 
             if(isset($donnees['titre'])==true and $donnees['visible']==1){
@@ -69,7 +69,7 @@
             </td>
         </tr>
         <?php
-        $req = $bdd->query("SELECT * FROM $saison WHERE visible = 1");
+        $req = $bdd->query("SELECT * FROM $saison WHERE visible = 1"); /* Sert à ce que la première ligne de la bdd soit affiché. */
         while($donnees = $req->fetch()){
             ?>
             <tr>
@@ -83,7 +83,7 @@
                     <p class="center"><?php if(isset($donnees['date_publication'])){ echo $donnees['date_publication']; } else { echo "Inconnu"; }?></p>
                 </td>
                 <td>
-                    <p class="center"><a target="_blank" href="https://www.azndark-test.thelightguardian.fr/series/moduction/saisons?saison=<?php echo $_GET['saison'] ?>&episode=<?php echo $donnees['episode'] ?>">Voir l'&eacute;pisode</a></p>
+                    <p class="center"><a target="_self" href="https://www.azndark-test.thelightguardian.fr/series/moduction/episodes?saison=<?php echo $_GET['saison'] ?>&episode=<?php echo $donnees['episode'] ?>">Voir l'&eacute;pisode</a></p>
                 </td>
             </tr>
         <?php } ?>

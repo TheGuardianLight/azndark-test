@@ -74,7 +74,7 @@
 
                         $episode_previous = $_GET['episode'] - 1;
 
-                        $saison_previous = $_GET['saison'] -1;
+                        $saison_previous = $_GET['saison'] - 1;
 
                         $req = $bdd->query("SELECT * FROM $saison WHERE episode = $episode_previous AND visible = 1");
                         $donnees = $req->fetch();
@@ -87,7 +87,7 @@
 
                         if ($saison_previous<=0){ ?>
 
-
+                            <!-- Laisser cette zone vide -->
 
                         <?php } else {
                             $saison_previous_bdd = "moduction_s".$saison_previous;
@@ -96,6 +96,11 @@
                             $donnees = $req->fetch();
 
                             $episode_prev_saison = $donnees['count(episode)'];
+
+                            if ($saison_previous_bdd=="moduction_s6") {
+                                $episode_prev_saison = $episode_prev_saison - 1;
+                            }
+
                             ?>
 
                             <a id="bouton_saison" target="_self" href="https://www.azndark-test.thelightguardian.fr/series/moduction/episodes?saison=<?php echo $saison_previous ?>&episode=<?php echo $episode_prev_saison ?>">◀&nbsp;Saison pr&eacute;c&eacute;dente</a>
