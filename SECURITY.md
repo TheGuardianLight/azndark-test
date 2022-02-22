@@ -14,4 +14,4 @@ For now, the project is in its early stages.
 
 You can report me all security vulnerability by sending me
 a mail with the description of the vulnerability at:
-noa.ledet@thelightguardian.fr
+security@thelightguardian.fr
