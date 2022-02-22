@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e99ecf-039f-43e6-a023-b12ec82b0668" name="Changes" comment="Ajout séries Moduction&#10;&#10;- Finalisation de l'intégration de la saison de Moduction.&#10;- Réglage de quelques bug de la page de lecture des épisodes.">
-      <change afterPath="$PROJECT_DIR$/styles/css/series/moduction/episodes.css" afterDir="false" />
+    <list default="true" id="02e99ecf-039f-43e6-a023-b12ec82b0668" name="Changes" comment="Correction de bug&#10;&#10;- Correction du bug faisant mettre le visiteur sur l'épisode 72 de la saison 6 de Moduction lorsqu'il faisait &quot;Saison Précédente&quot; sur l'épidose 1 de la saison 7.">
+      <change afterPath="$PROJECT_DIR$/series/icarus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/icarus/episodes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/series/moduction.php" beforeDir="false" afterPath="$PROJECT_DIR$/series/moduction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/series/moduction/episodes.php" beforeDir="false" afterPath="$PROJECT_DIR$/series/moduction/episodes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/series/moduction/saisons.php" beforeDir="false" afterPath="$PROJECT_DIR$/series/moduction/saisons.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,10 @@
       <workItem from="1643887995596" duration="4827000" />
       <workItem from="1644083725506" duration="4095000" />
       <workItem from="1644161582121" duration="9010000" />
-      <workItem from="1644251435699" duration="1628000" />
+      <workItem from="1644251435699" duration="2196000" />
+      <workItem from="1644254672697" duration="1200000" />
+      <workItem from="1645444534568" duration="3481000" />
+      <workItem from="1645529795314" duration="849000" />
     </task>
     <task id="LOCAL-00003" summary="def">
       <created>1639246079065</created>
@@ -183,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644252279772</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Correction de bug&#10;&#10;- Correction du bug faisant mettre le visiteur sur l'épisode 72 de la saison 6 de Moduction lorsqu'il faisait &quot;Saison Précédente&quot; sur l'épidose 1 de la saison 7.">
+      <created>1644253413095</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644253413095</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +221,7 @@
     <MESSAGE value="Ajout séries&#10;&#10;- Ajout de la série Moduction sur le site. [En cours de travail]&#10;- Ajout de l'onglet &quot;séries&quot; sur le menu du site." />
     <MESSAGE value="Ajout séries Moduction&#10;&#10;- Continuation de l'intégration des séries sur le site." />
     <MESSAGE value="Ajout séries Moduction&#10;&#10;- Finalisation de l'intégration de la saison de Moduction.&#10;- Réglage de quelques bug de la page de lecture des épisodes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout séries Moduction&#10;&#10;- Finalisation de l'intégration de la saison de Moduction.&#10;- Réglage de quelques bug de la page de lecture des épisodes." />
+    <MESSAGE value="Correction de bug&#10;&#10;- Correction du bug faisant mettre le visiteur sur l'épisode 72 de la saison 6 de Moduction lorsqu'il faisait &quot;Saison Précédente&quot; sur l'épidose 1 de la saison 7." />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction de bug&#10;&#10;- Correction du bug faisant mettre le visiteur sur l'épisode 72 de la saison 6 de Moduction lorsqu'il faisait &quot;Saison Précédente&quot; sur l'épidose 1 de la saison 7." />
   </component>
 </project>

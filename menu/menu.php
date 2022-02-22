@@ -8,6 +8,7 @@
             <li class="deroulant"><p class="plus">S&eacute;ries</p>
                 <ul class="sous">
                     <li><a href="/series/moduction.php" target="_self">Moduction</a></li>
+                    <li><a href="/series/icarus.php" target="_self">Icarus</a></li>
                 </ul>
             </li>
             <li class="deroulant"><p class="plus">Plus</p>

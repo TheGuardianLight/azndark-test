@@ -2,7 +2,13 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-<?php require('../../admin/bdd/bdd_online.php'); ?>
+<?php require('../../admin/bdd/bdd_online.php');
+
+$episode = $_GET['episode'];
+
+$req = $bdd->query("SELECT * FROM icarus WHERE episode = $episode AND visible = 1");
+    $donnees = $req->fetch();
+?>
 
 <head>
     <base target="_blank">
@@ -29,7 +35,7 @@
     <link rel="stylesheet" href="../../styles/css/menu.css">
     <link rel="stylesheet" href="../../styles/css/general.css">
 
-    <title>Moduction S<?php echo $_GET['saison'] ?> Ep<?php echo $_GET['episode']?> | Azn & Dark Production</title>
+    <title>Icarus Ep<?php echo $_GET['episode']?> | Azn & Dark Production</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,35 +47,16 @@
 <body>
 <?php
 
+if(isset($donnees['id'])== true or isset($donnees['visible'])== true){
+
 require('../../menu/menu.php');
-
-?>
-
-<?php
-
-$req = $bdd->query("SELECT count(saison) FROM liste_moduction;");
-$donnees = $req->fetch();
-
-$nbe_saison = $donnees['count(saison)'];
-echo $nbe_saison;
-$saison = "moduction_s".$_GET['saison'];
-$episode = $_GET['episode'];
-
-$req = $bdd->query("SELECT * FROM $saison WHERE episode = $episode AND visible = 1");
-$donnees = $req->fetch();
-
-if($_GET['saison']>$nbe_saison or $_GET['saison']<1) { ?>
-
-    <h1 style="color: red">Cette &eacute;pisode/saison n'existe pas</h1>
-
-<?php } elseif (isset($donnees['id'])== true or isset($donnees['visible'])== true){
 
 ?>
 
 <div>
 
     <br/>
-    <h1 id="titre">Moduction Saison <?php echo $_GET['saison'] ?></h1>
+    <h1 id="titre">Icarus</h1>
     <p class="titre_ep">Episode <?php echo $_GET['episode'] ?>&nbsp;: <?php echo $donnees['titre'] ?></p>
     <br/>
 
@@ -91,39 +78,18 @@ if($_GET['saison']>$nbe_saison or $_GET['saison']<1) { ?>
 
                         $episode_previous = $_GET['episode'] - 1;
 
-                        $saison_previous = $_GET['saison'] - 1;
-
-                        $req = $bdd->query("SELECT * FROM $saison WHERE episode = $episode_previous AND visible = 1");
+                        $req = $bdd->query("SELECT * FROM icarus WHERE episode = $episode_previous AND visible = 1");
                         $donnees = $req->fetch();
 
                         if(isset($donnees['episode']) and $donnees['visible']=1) { ?>
 
-                            <a id="bouton" target="_self" href="https://www.azndark-test.thelightguardian.fr/series/moduction/episodes?saison=<?php echo $_GET['saison'] ?>&episode=<?php echo $episode_previous ?>">◀&nbsp;Episode pr&eacute;c&eacute;dent</a>
+                            <a id="bouton" target="_self" href="https://www.azndark-test.thelightguardian.fr/series/icarus/episodes?episode=<?php echo $episode_previous ?>">◀&nbsp;Episode pr&eacute;c&eacute;dent</a>
 
-                        <?php } else {
-
-                        if ($saison_previous<=0){ ?>
+                        <?php } else { ?>
 
                             <!-- Laisser cette zone vide -->
 
-                        <?php } else {
-                            $saison_previous_bdd = "moduction_s".$saison_previous;
-
-                            $req = $bdd->query("SELECT count(episode) FROM $saison_previous_bdd;");
-                            $donnees = $req->fetch();
-
-                            $episode_prev_saison = $donnees['count(episode)'];
-
-                            if ($saison_previous_bdd=="moduction_s6") {
-                                $episode_prev_saison = $episode_prev_saison - 1;
-                            }
-
-
-                            ?>
-
-                            <a id="bouton_saison" target="_self" href="https://www.azndark-test.thelightguardian.fr/series/moduction/episodes?saison=<?php echo $saison_previous ?>&episode=<?php echo $episode_prev_saison ?>">◀&nbsp;Saison pr&eacute;c&eacute;dente</a>
-
-                        <?php } } ?>
+                        <?php } ?>
 
                     </td>
 
@@ -137,43 +103,24 @@ if($_GET['saison']>$nbe_saison or $_GET['saison']<1) { ?>
 
                         $episode_next = $_GET['episode'] + 1;
 
-                        $saison_next= $_GET['saison'] + 1;
-
-                        $req = $bdd->query("SELECT * FROM $saison WHERE episode = $episode_next AND visible = 1");
+                        $req = $bdd->query("SELECT * FROM icarus WHERE episode = $episode_next AND visible = 1");
                         $donnees = $req->fetch();
 
                         if(isset($donnees['episode']) and $donnees['visible']=1) { ?>
 
-                            <a id="bouton" target="_self" href="https://www.azndark-test.thelightguardian.fr/series/moduction/episodes?saison=<?php echo $_GET['saison'] ?>&episode=<?php echo $episode_next ?>">Episode suivant&nbsp;▶</a>
+                            <a id="bouton" target="_self" href="https://www.azndark-test.thelightguardian.fr/series/icarus/episodes?episode=<?php echo $episode_next ?>">Episode suivant&nbsp;▶</a>
 
-                            <?php } else {
-                            $req = $bdd->query("SELECT count(saison) FROM liste_moduction;");
-                            $donnees = $req->fetch();
+                        <?php } else { ?>
 
-                            if ($saison_next>$donnees['count(saison)']){ ?>
+                            <!-- Laisser cette zone vide -->
 
-                                <!-- Laisser cette zone vide -->
-
-                            <?php } else {
-                            $saison_next_bdd = "moduction_s".$saison_next;
-
-                            $req = $bdd->query("SELECT count(episode) FROM $saison_next_bdd;");
-                            $donnees = $req->fetch();
-
-                            $episode_next_saison = 1;
-
-                            ?>
-
-                            <a id="bouton_saison" target="_self" href="https://www.azndark-test.thelightguardian.fr/series/moduction/episodes?saison=<?php echo $saison_next ?>&episode=<?php echo $episode_next_saison ?>">Saison suivante&nbsp;▶</a>
-
-                            <?php } } ?>
-
+                        <?php } ?>
                     </td>
                 </tr>
             </table>
         </div>
         <?php
-        $req = $bdd->query("SELECT * FROM $saison WHERE episode = $episode AND visible = 1");
+        $req = $bdd->query("SELECT * FROM icarus WHERE episode = $episode AND visible = 1");
         $donnees = $req->fetch();
         ?>
         <iframe width="854" height="480" src="https://www.youtube.com/embed/<?php echo $donnees['lien_youtube'] ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -181,11 +128,11 @@ if($_GET['saison']>$nbe_saison or $_GET['saison']<1) { ?>
 </div>
 
 </body>
-<?php } else { ?>
+<?php require('../../menu/pied_page.php');
 
-<h1 style="color: red">Cette &eacute;pisode/saison n'existe pas</h1>
+} else { ?>
+
+    <h1 style="color: red">Cette &eacute;pisode/saison n'existe pas</h1>
 
 <?php } ?>
-
-<?php require('../../menu/pied_page.php'); ?>
 </html>
